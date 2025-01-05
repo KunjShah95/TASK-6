@@ -25,7 +25,6 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
@@ -35,29 +34,16 @@
             <groupId>org.apache.mahout</groupId>
             <artifactId>mahout-mr</artifactId>
             <version>0.12.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.mahout</groupId>
+    <artifactId>mahout-core</artifactId>
+    <version>0.13.0</version>
+</dependency>
+<dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-math</artifactId>
+            <version>0.13.0</version>
         </dependency>
-
-    <!-- other dependencies -->
-
-    <dependency>
-
-        <groupId>org.apache.mahout</groupId>
-
-        <artifactId>mahout-core</artifactId>
-
-        <version>0.13.0</version>
-
-    </dependency>
-
-    <dependency>
-
-        <groupId>org.apache.mahout</groupId>
-
-        <artifactId>mahout-math</artifactId>
-
-        <version>0.13.0</version>
-
-    </dependency>
-
-</dependencies>
+    </dependencies>
 </project>

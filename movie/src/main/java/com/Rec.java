@@ -1,3 +1,4 @@
+package com;
 
 import org.apache.mahout.cf.taste.impl.model.file.FileDataModel;
 import org.apache.mahout.cf.taste.model.DataModel;
@@ -18,5 +19,11 @@ public class Rec {
 
     public DataModel getMovieModel() throws IOException {
         return getModel("movies.csv");
+    }
+
+    static class RecBuilder {
+
+        public RecBuilder() {
+        }
     }
 }
